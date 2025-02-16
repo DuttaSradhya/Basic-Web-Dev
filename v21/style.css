@@ -1,0 +1,31 @@
+
+/* The specificity of the selector is 1 - Universal Selector*/
+h1{
+    color:aqua
+}
+
+/* The specificity of the selector is 10 - Class Selector */
+.cred{
+    color:red;
+}
+
+/* The specificity of the selector is 100 (class) + 1 (element)= 11- Class Selector */
+h1.yellow{
+    color:yellow;
+}
+
+/* The specificity of the selector is 10 - Class Selector */
+.cpurple{
+    color:purple;
+}
+/* The specificity of this selector is 1 + 10 + 10 + 10 +10 =41 */
+a.harryclass.rohan-class[href]:hover{
+    color: blueviolet;
+}
+
+
+/* Thi is an example of Attribute Selector. The specificity of the selector is 10 */
+/* 
+[data-x=a]{
+background-color:red;
+} */
