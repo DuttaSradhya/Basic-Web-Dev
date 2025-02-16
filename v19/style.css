@@ -1,0 +1,37 @@
+@import url('https://fonts.google.com/specimen/Baloo+2?preview.text=Hey%20I%20am%20good&query=baloo');
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    text-decoration-thickness:4px;
+    text-indent: 45px;
+    text-overflow: ellipsis;
+
+
+}
+
+.Concepts{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    font-weight:  100px;
+    font-size: 20px;
+    line-height: 4;
+    letter-spacing: 40 px;
+   /* text-decoration: overline; */
+
+}
+
+.Lorem{
+border: 2px solid red;
+width: 145px;
+word-break: break-all;
+/* text-overflow: ellipsis;
+overflow: hidden; */
+}
